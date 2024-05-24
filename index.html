@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=width-device, initial-scale=1">
+         
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="javascript/script.js" defer></script>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   
+    <title>Sorridente</title>
+    
+</head>
+
+<body>
+    <header id="topo">
+
+        <nav id="navbar">
+
+            <i class="#" id="nav_logo"> </i>
+            <img src="images/Sorridente 2.png">
+            
+            <ul id="nav_list">
+                <li class="nav-item active"> 
+                 <a href="#home" class="nav-link">inicio</a>
+               </li>
+                <li class="nav-item"> 
+                 <a href="#tratamentos" class="nav-link">Tratamentos</a>
+                 
+                  <ul class="dropdown">
+                   <li><a href="">Serviço 1</a></li>
+                   <li><a href="">Serviço 1</a></li>
+                   <li><a href="">Serviço 1</a></li>
+                  </ul>
+              
+                </li>
+               
+                <li class="nav-item"> 
+                 <a href="#contato" class="nav-link">Contato</a>
+               </li>
+                <li class="nav-item"> 
+                 <a href="#sobre" class="nav-link">Sobre</a>
+               </li>    
+            </ul>
+            
+            <div class="btn-agendar">
+              <a href="#agenda"> Agendar</a>
+            </div>
+            
+
+            <button id="mobile_btn">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+
+           
+
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item"> 
+                  <a href="home" class="nav-link">inicio</a>
+                </li>
+                <li class="nav-item"> 
+                  <a href="#tratamentos" class="nav-link">Tratamentos</a>
+                </li>
+                <li class="nav-item"> 
+                  <a href="#contato" class="nav-link">Contato</a>
+                </li>
+                <li class="nav-item"> 
+                  <a href="#sobre" class="nav-link">Sobre</a>
+                </li>
+            </ul>
+            
+        </div>
+
+    </header>
+
+       
+   <section class="slider">
+        <div class="slider-content">
+          <input type="radio" name="btn-radio" id="radio1">
+          <input type="radio" name="btn-radio" id="radio2">
+          <input type="radio" name="btn-radio" id="radio3">
+
+          <div class="slide-box primeiro">
+            <img class="img-desktop" src="images/1.png" alt="slide 1">
+            <img class="img-mobile" src="" alt="slide 1">
+          </div>
+          <div class="slide-box">
+            <img class="img-desktop" src="images/2.png" alt="slide 2">
+            <img class="img-mobile" src="" alt="slide 2">
+          </div>
+          <div class="slide-box">
+            <img class="img-desktop" src="images/3.png" alt="slide 3">
+            <img class="img-mobile" src="" alt="slide 3">
+          </div>
+
+          <div class="nav-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+          </div>
+
+        <div class="nav-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+        </div>
+
+       </div>
+
+   </section>
+
+ <!--Frase do agendamento-->
+   <figure>
+    <blockquote class="blockquote">
+      <h3 class="fw-lighter text-center mt-5" >“Um sorriso é capaz de alegrar o mundo de quem está ao seu redor.”</h3>
+    </blockquote>
+    <figcaption class="blockquote-footer text-center">
+     <cite title="Source Title"></cite>
+    </figcaption>
+  </figure>
+  
+    
+    
+
+
+<section class="formulario" id="agenda"> <!--Formulario-->
+    <div class="inteface">
+        <h2 class="titulo">Agenda a sua consulta!</h2>
+        <form action="">
+            <input type="text" name="" id="" placeholder="Nome completo:"required>
+            <input type="text" name="" id="" placeholder="E-mail:">
+            <input type="text" name="" id="" placeholder="Celular:"required>
+            <textarea name="" id="" placeholder="Sua menssagem" required></textarea>
+            <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+        </form>
+    </div> <!--interface-->
+</section><!--Formulario-->
+     
+
+     <section id="transform-world">
+     
+      <p>TRANSFORME O SEU SORRISO COM A GENTE</p>
+    </section>
+
+     <div id="container">
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+         <div class="flip-card-front">
+          <img src="images/antes-01.jpg" class="flip-image" alt="uno card front">
+         </div>
+        
+        <div class="flip-card-back">
+          <img src="images/depois-1.jpg" class="flip-image" alt="uno card back">
+        </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+         <div class="flip-card-front">
+          <img src="images/Antes-2.jpg" class="flip-image" alt="uno card front">
+         </div>
+        
+        <div class="flip-card-back">
+          <img src="images/depois-2.jpg" class="flip-image" alt="uno card back">
+        </div>
+        </div>
+      </div>
+      
+      <div class="flip-card">
+        <div class="flip-card-inner">
+         <div class="flip-card-front">
+          <img src="images/antes-3.jpg" class="flip-image" alt="uno card front">
+         </div>
+        
+        <div class="flip-card-back">
+          <img src="images/depois-3.jpg" class="flip-image" alt="uno card back">
+        </div>
+        </div>
+      </div>
+     </div>
+
+
+    <section id="sobre">
+        <div class="sobre">
+
+        
+          <h1>Sobre nós</h1>
+          <br> <br> 
+            <P class="resumo">
+              Somos uma clínica odontológica dedicada a fornecer tratamentos odontológicos de alta qualidade. <br>Contamos com especialistas  em ortodontia e implantes, 
+              além de profissionais muito bem qualificados para todas as áreas da odontologia.<br> Com anos de experiência e uma equipe de profissionais comprometidos,<br>
+              estamos aqui para ajudar você a alcançar um sorriso saudável e bonito. <br>Cuidamos do seu sorriso com todo carinho!</P>
+          
+
+        </div>
+    </section>
+
+    <section id="tratamentos">
+     <div class="cartao-fixo">
+
+      
+        <div class="cartao">
+          <div class="cartao-frente"><h1>Implante dentário</h1><p>Os implantes dentários são dedicados a quem usa dentadura, ponte móvel ou tenha perdido um ou mais dentes. Seu objetivo é substituir as raízes dentárias, mantendo a mesma semelhança estética em relação aos dentes.</p>
+            
+          </div>
+          <div class="avaliacao-btn">
+            <a id="implante-dentario" href="#agenda">Agendar avaliação</a>
+          </div>
+                                          
+        </div>
+        
+        <div class="cartao">
+          <div class="cartao-frente"> <h1>Carga imediata</h1>
+            <p>Com a carga imediata, é possível recuperar todos os dentes fixos em 72 horas, enquanto o tratamento convencional leva de quatro a seis meses, aproximadamente.</p>
+          </div>
+        <div class="avaliacao-btn">
+          <a id="carga-imediata" href="#agenda">Agendar avaliação </a>
+        </div>
+         </div>
+         
+
+          <div class="cartao">
+            <div class="cartao-frente"><h1>Próteses dentárias</h1><p>As próteses dentárias são aparelhos utilizados pela equipe da Sorridente para substituir os dentes ausentes, podendo ser fixos ou removíveis, cujo objetivo é restabelecer a harmonia facial, função e estética bucal.</p>
+            </div>
+            <div class="avaliacao-btn">
+              <a id="protese-dentaria" href="#agenda">Agendar avaliação </a>
+            </div> 
+             </div>
+                             
+            
+          <div class="cartao">
+             <div class="cartao-frente"><h1>Estética dental</h1><p>A estética dental une uma série de cuidados com os dentes, que são responsáveis pela beleza de um sorriso, não sendo apenas uma questão de vaidade e de saúde também, como tratamento e prevenção de tártaros, cáries etc.</p>
+          </div>
+          <div class="avaliacao-btn">
+            <a id="estetica-dental" href="#agenda">Agendar avaliação</a>
+          </div>                      
+                  
+          </div>
+
+               
+      </div>
+    </section>
+      
+
+      
+      
+<footer>
+
+  <div id="footer_content">
+    <div id="footer_contacts">
+      <h1>Logo</h1>
+      <p> It`s all about your dreams.</p>
+
+      <div id="footer_social_media">
+        <a href="#" class="footer-link" id="instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+    
+        <a href="#" class="footer-link" id="facebook">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+    
+        <a href="#" class="footer-link" id="whatsapp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+
+      </div>
+    </div>
+
+    <ul class="footer-list">
+      <li>
+        <h3>Blog</h3>
+      </li>
+      <li>
+        <a href="" class="footer-link">Tech</a>
+      </li>
+      <li>
+        <a href="" class="footer-link">Adventures</a>
+      </li>
+      <li>
+        <a href="" class="footer-link">Music</a>
+      </li>
+          
+    </ul>
+
+    <ul class="footer-list">
+      <li>
+        <h3>Produtos</h3>
+      </li>
+      <li>
+        <a href="" class="footer-link">App</a>
+      </li>
+      <li>
+        <a href="" class="footer-link">Dsktop</a>
+      </li>
+      <li>
+        <a href="" class="footer-link">Cloud</a>
+      </li>
+          
+    </ul>
+
+    <div id="footer_subscribe">
+      <h3>Subscribe</h3>
+      <p>
+        Enter your e-mail to get notified about
+        our news solutions
+      </p>
+
+      <div id="input_group">
+        <input type="email" id="email">
+        <button>
+          <i class="fa-regular fa-envelope"></i>
+        </button>
+      </div>
+
+
+    </div>
+  </div>
+  
+  <div id="footer_copyright">
+    &#169
+    2024 all rights reserve
+  </div>
+  <section id="contato"></section>
+
+  <button onclick="backToTop();" id="btnTop">
+    
+    <i class="fa-solid fa-chevron-up"> </i>
+  </button>
+
+   
+    
+  </div>
+
+  <div class=" whatsapp">
+  <div class="whats-1"></div>
+  <div class="whats-2"></div>
+  <div class="whats-3">
+    <a href="https://api.whatsapp.com/send?phone=5566996570112&text=Gostaria%20de%20receber%20mais%20informações?" class="icon" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+  </div>
+
+</footer>    
+
+            
+           
+           <script src="javascript/scroll.js"></script>
+           
+           
+          
+</body>
+</html>
