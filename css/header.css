@@ -286,12 +286,17 @@ section.slider{
        }
 }
 
+/* frase  */
 
+.text-cite {
+    text-align: center;
+    color: #e0d8d8;
+    font-weight: lighter;
+    font-style: italic;
+    margin-top: 25px;
+}
 
 /* Agenda de consultas */
-
-
-
 
 section.formulario {
     padding: 100px 4%;
