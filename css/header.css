@@ -208,8 +208,6 @@ section.slider{
     position: relative;
     text-align: center;
     transition: 1s;
-    
- 
 }
 
 
@@ -300,12 +298,40 @@ section.formulario {
 }
 
 .formulario h2{
+    display: flex; 
     color: #1d1d1d;
     justify-content: center;
     text-align: center;
     font-size: 38px;
+    animation: wiggle 2.9s linear infinite;
+   
 }
 
+@keyframes wiggle {
+    0%,
+    10% {
+      transform: rotate(0);
+    }
+    15% {
+      transform: rotate(-15deg);
+    }
+    20% {
+      transform: rotate(10deg);
+    }
+    25% {
+      transform: rotate(-10deg);
+    }
+    30% {
+      transform: rotate(10deg);
+    }
+    35% {
+      transform: rotate(-10deg);
+    }
+    40%,
+    100% {
+      transform: rotate(0);
+    }
+  }
 
 
 form, #text-area, textarea {
@@ -331,6 +357,7 @@ form  textarea {
 
 
 @media screen and (max-width:768px) {
+     
     .formulario h2{
         font-size: 22px;
     }
