@@ -105,23 +105,23 @@ ul li:hover ul.dropdown {
 }
 
 .btn-agendar{
-    transition: .6s;
+    transition: all 0.4s ease;
+    background-color: #e9a209;
+    padding: 15px 40px;
+    border-radius: 100px;
+    cursor: pointer;
 }
 
 .btn-agendar a{
-    background-color: #e9a209;
-    padding: 15px 20px;
-    border-radius: 22px;
-    font-size: 22px;
     color: #1d1d1d;
     text-decoration: none;
-    transition: .6s;
-    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 .btn-agendar:hover{
     transform: scale(1.05);
-    box-shadow: 0 0 12px 2px #e9a209;
+    box-shadow: 0 0 12px 2px #ff9807;
 
 }
 
@@ -172,6 +172,27 @@ ul li:hover ul.dropdown {
         margin-left: 450px;
         display: flex;
         justify-content: center;
+    }
+
+}
+
+@media screen and (max-width:430px) {
+    #nav_logo img {
+       width: 40%;
+    }
+
+    .btn-agendar a {
+        font-size: 18px;
+       
+    
+        
+    }
+
+    .btn-agendar {
+        position: absolute;
+        left: 165px;
+        padding: 12px 25px;
+        
     }
 
 }
@@ -229,7 +250,7 @@ section.slider{
 
 .nav-manual .manual-btn, .nav-auto div{
     border: 1px solid rgb(52, 105, 219);
-    padding: 10px;
+    padding: 5px;
     border-radius: 50%;
     cursor: pointer;
     transition: 0.2s;
@@ -269,20 +290,20 @@ section.slider{
 
 @media screen and (max-width: 900px) {
    .nav-auto, .nav-manual{
-    margin-top: 60%;
+    margin-top: 63%;
    }
      
 }
 
 @media screen and (max-width: 720px){
     .nav-auto, .nav-manual{
-        margin-top: 75%;
+        margin-top: 78%;
        }
 }
 
 @media screen and (max-width: 430px){
     .nav-auto, .nav-manual{
-        margin-top: 130%;
+        margin-top: 145%;
        }
 }
 
@@ -290,7 +311,7 @@ section.slider{
 
 .text-cite {
     text-align: center;
-    color: #e0d8d8;
+    color: #1d1d1d;
     font-weight: lighter;
     font-style: italic;
     margin-top: 25px;
@@ -414,7 +435,7 @@ form .btn-enviar input {
     font-weight: 700;
     cursor: pointer;
     transition: .2s;
-    box-shadow: 0 0px 12px rgba(0, 0, 0, 0.12), 0 1px 2px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.12), 0 1px 2px;
 }
 
 .formulario form .btn-enviar input:hover{
