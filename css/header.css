@@ -106,7 +106,7 @@ ul li:hover ul.dropdown {
 
 .btn-agendar{
     transition: all 0.4s ease;
-    background-color: #e9a209;
+    background-color: #ffc509;
     padding: 15px 40px;
     border-radius: 100px;
     cursor: pointer;
@@ -430,7 +430,7 @@ form .btn-enviar {
 
 form .btn-enviar input {
     width: 120px;
-    background-color: #e9a209;
+    background-color: #ffc509;
     color: black;
     font-weight: 700;
     cursor: pointer;
@@ -630,7 +630,7 @@ color: #ffffff;
 
 #implante-dentario {
     text-decoration: none;
-    background-color: #e9a209;
+    background-color: #ffc509;
     color: #1d1d1d;
     border-radius: 16px;
     padding: 12px;
@@ -656,7 +656,7 @@ color: #ffffff;
     
 #carga-imediata {
     text-decoration: none;
-    background-color: #e9a209;
+    background-color: #ffc509;
     color: #1d1d1d;
     padding: 12px;
     margin: 25px;
@@ -682,7 +682,7 @@ color: #ffffff;
 
 #protese-dentaria {
     text-decoration: none;
-    background-color: #e9a209;
+    background-color: #ffc509;
     color: #1d1d1d;
     padding: 12px;
     margin: 25px;
@@ -705,7 +705,7 @@ color: #ffffff;
 }
 #estetica-dental {
     text-decoration: none;
-    background-color: #e9a209;
+    background-color: #ffc509;
     color: #1d1d1d;
     padding: 12px ;
     border-radius: 16px;
@@ -898,7 +898,7 @@ color: #ffffff;
 }
 
 #input_group button {
-    background-color:#e9a209;
+    background-color:#ffc509;
     border: none;
     color: #f5f5f5;
     padding: 0px 1.25rem;
