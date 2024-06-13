@@ -105,23 +105,23 @@ ul li:hover ul.dropdown {
 }
 
 .btn-agendar{
-    transition: all 0.4s ease;
-    background-color: #ffc509;
-    padding: 15px 40px;
-    border-radius: 100px;
-    cursor: pointer;
+    transition: .6s;
 }
 
 .btn-agendar a{
+    background-color: #e9a209;
+    padding: 15px 20px;
+    border-radius: 22px;
+    font-size: 22px;
     color: #1d1d1d;
     text-decoration: none;
-    font-size: 22px;
-    font-weight: 600;
+    transition: .6s;
+    cursor: pointer;
 }
 
 .btn-agendar:hover{
     transform: scale(1.05);
-    box-shadow: 0 0 12px 2px #ff9807;
+    box-shadow: 0 0 12px 2px #e9a209;
 
 }
 
@@ -176,34 +176,13 @@ ul li:hover ul.dropdown {
 
 }
 
-@media screen and (max-width:430px) {
-    #nav_logo img {
-       width: 40%;
-    }
-
-    .btn-agendar a {
-        font-size: 18px;
-       
-    
-        
-    }
-
-    .btn-agendar {
-        position: absolute;
-        left: 165px;
-        padding: 12px 25px;
-        
-    }
-
-}
-
 /* carousel*/
 
 
 section.slider{
     margin: 0 auto;
     width: 100%;
-    height: 600px;
+    height: 650px;
     padding: 0 !important;
     overflow: hidden;
 
@@ -229,13 +208,15 @@ section.slider{
     position: relative;
     text-align: center;
     transition: 1s;
+    
+ 
 }
 
 
-.slide-box img{
-    height: 650px;
+.slide-box .img-desktop{
     width: 100%;
-  
+    height: 650px;
+    
    
 } 
 
@@ -250,7 +231,7 @@ section.slider{
 
 .nav-manual .manual-btn, .nav-auto div{
     border: 1px solid rgb(52, 105, 219);
-    padding: 5px;
+    padding: 10px;
     border-radius: 50%;
     cursor: pointer;
     transition: 0.2s;
@@ -290,31 +271,36 @@ section.slider{
 
 @media screen and (max-width: 900px) {
    .nav-auto, .nav-manual{
-    margin-top: 63%;
+    margin-top: 60%;
    }
      
 }
 
 @media screen and (max-width: 720px){
     .nav-auto, .nav-manual{
-        margin-top: 78%;
+        margin-top: 75%;
+       }
+
+       .slide-box .img-desktop {
+            display: none;
+       }
+
+       .slide-box .img-mobile {
+        display: flex;
+       }
+
+       section.slider .img-mobile  {
+        width: 100%;
+        height: 550px;
+        object-fit: cover;
+        
        }
 }
 
 @media screen and (max-width: 430px){
     .nav-auto, .nav-manual{
-        margin-top: 142%;
+        margin-top: 130%;
        }
-}
-
-/* frase  */
-
-.text-cite {
-    text-align: center;
-    color: #1d1d1d;
-    font-weight: lighter;
-    font-style: italic;
-    margin-top: 25px;
 }
 
 /* Agenda de consultas */
@@ -324,12 +310,37 @@ section.formulario {
 }
 
 .formulario h2{
-  
-    color: #1d1d1d;
+    color:#e9a209;
     justify-content: center;
     text-align: center;
-    font-size: 38px;
+    font-size: 48px;
+    font-family: "indie flower";
     animation: wiggle 2.9s linear infinite;
+}
+
+.title-frase {
+    margin-top: 20px;
+    color: #e9a209;
+    text-align: center;
+    font-family: cursive;
+}
+
+form, #text-area, textarea {
+    width: 90%;
+    margin-left: 22px;
+    padding: 20px 15px;
+    background-color: #fff;
+    color: #0e0303;
+    font-size: 18px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
+
+form  textarea {
+    resize: none;
+    height: 300px;
+    margin-top: 20px;
    
 }
 
@@ -358,34 +369,16 @@ section.formulario {
       transform: rotate(0);
     }
   }
-
-
-form, #text-area, textarea {
-    width: 90%;
-    margin-left: 22px;
-    padding: 20px 15px;
-    background-color: #fff;
-    color: #0e0303;
-    font-size: 18px;
-    border-radius: 15px;
-    border: none;
-    outline: none;
-}
-
-form  textarea {
-    resize: none;
-    height: 300px;
-
-    margin-top: 20px;
-   
-}
   
 
 
 @media screen and (max-width:768px) {
-     
     .formulario h2{
-        font-size: 22px;
+        font-size: 30px;
+    }
+
+    .title-frase {
+        margin: 15px 8%;
     }
 }
 
@@ -430,12 +423,12 @@ form .btn-enviar {
 
 form .btn-enviar input {
     width: 120px;
-    background-color: #ffc509;
+    background-color: #e9a209;
     color: black;
     font-weight: 700;
     cursor: pointer;
     transition: .2s;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.12), 0 1px 2px;
+    box-shadow: 0 0px 12px rgba(0, 0, 0, 0.12), 0 1px 2px;
 }
 
 .formulario form .btn-enviar input:hover{
@@ -630,7 +623,7 @@ color: #ffffff;
 
 #implante-dentario {
     text-decoration: none;
-    background-color: #ffc509;
+    background-color: #e9a209;
     color: #1d1d1d;
     border-radius: 16px;
     padding: 12px;
@@ -656,7 +649,7 @@ color: #ffffff;
     
 #carga-imediata {
     text-decoration: none;
-    background-color: #ffc509;
+    background-color: #e9a209;
     color: #1d1d1d;
     padding: 12px;
     margin: 25px;
@@ -682,7 +675,7 @@ color: #ffffff;
 
 #protese-dentaria {
     text-decoration: none;
-    background-color: #ffc509;
+    background-color: #e9a209;
     color: #1d1d1d;
     padding: 12px;
     margin: 25px;
@@ -705,7 +698,7 @@ color: #ffffff;
 }
 #estetica-dental {
     text-decoration: none;
-    background-color: #ffc509;
+    background-color: #e9a209;
     color: #1d1d1d;
     padding: 12px ;
     border-radius: 16px;
@@ -898,7 +891,7 @@ color: #ffffff;
 }
 
 #input_group button {
-    background-color:#ffc509;
+    background-color:#e9a209;
     border: none;
     color: #f5f5f5;
     padding: 0px 1.25rem;
